@@ -8,7 +8,7 @@ export default class FuelInput extends Component {
         <TextInput
           style={styles.input}
           keyboardType="numeric"
-          placeholder="PREÇO DA GASOLINA"
+          placeholder="PREÇO DA GASOLINA BRUTA"
           placeholderTextColor="#000"
           value={this.props.gasoline}
           onChangeText={this.props.onGasolineChange}
@@ -16,7 +16,7 @@ export default class FuelInput extends Component {
         <TextInput
           style={styles.input}
           keyboardType="numeric"
-          placeholder="PREÇO DO ÁLCOOL"
+          placeholder="PREÇO DO ÁLCOOL BRUTA"
           placeholderTextColor="#000"
           value={this.props.alcohol}
           onChangeText={this.props.onAlcoholChange}
